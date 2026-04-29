@@ -1,0 +1,28 @@
+"""
+
+1]. **String Manipulation Exercise**:
+   Write a Python program that:
+   - Takes a sentence as input from the user.
+   - Prints the sentence in all uppercase and lowercase.
+   - Replaces all spaces with underscores.
+   - Removes leading and trailing whitespace.
+
+   **Example**:
+   
+   python
+   Input: "   Python is awesome!   "
+   Output:
+   Uppercase: "PYTHON IS AWESOME!"
+   Lowercase: "python is awesome!"
+   Replaced: "___Python_is_awesome!___"
+   Stripped: "Python is awesome!"
+   
+
+   """
+
+Sentence = input("Enter a word for your futuire self:")
+
+print(Sentence.upper())
+print(Sentence.lower())
+print(Sentence.replace(" ","_"))
+print(Sentence.strip("_"))
